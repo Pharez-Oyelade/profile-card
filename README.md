@@ -11,7 +11,7 @@ This project demonstrates:
 
 ---
 
-## 🚀 Features
+## Features
 
 - Semantic HTML structure (`article`, `header`, `nav`, `section`, `figure`)
 - Accessible
@@ -21,7 +21,7 @@ This project demonstrates:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 profile-card/
@@ -33,7 +33,7 @@ profile-card/
 
 ---
 
-## ⚙️ How to Run Locally
+## How to Run Locally
 
 ### Option 1: Open directly
 
@@ -56,7 +56,7 @@ Running a local server avoids some browser restrictions and is closer to real-wo
 
 ---
 
-## ⌨️ Accessibility & Keyboard Usage
+## Accessibility & Keyboard Usage
 
 You can fully navigate the card using your keyboard:
 
@@ -72,7 +72,7 @@ You can fully navigate the card using your keyboard:
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 ### Time Display Logic
 
@@ -87,7 +87,7 @@ function updateTime() {
 
 ---
 
-## 🎨 Customization
+## Customization
 
 You can easily modify:
 
@@ -99,7 +99,7 @@ You can easily modify:
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 - No frameworks or libraries are used
 - Designed for learning
