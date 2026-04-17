@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: #e2e8f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+/* Card */
+.profile-card {
+  background: #1e293b;
+  padding: 2rem 1.5rem;
+  border-radius: 1rem;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  display: flex;
+  /* flex-direction: column; */
+  gap: 1.5rem;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Avatar */
+.avatar {
+  text-align: center;
+}
+
+.avatar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin-top: 5px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #38bdf8;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+
+a:focus,
+.profile-card:focus {
+  outline: 2px solid #38bdf8;
+  outline-offset: 2px;
+}
+
+.likes {
+  display: flex;
+  gap: 2rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+/* media query */
+@media (max-width: 500px) {
+  .profile-card {
+    padding: 1rem;
+    flex-direction: column;
+  }
+
+  .social-links {
+    flex-direction: column;
+  }
+
+
+}

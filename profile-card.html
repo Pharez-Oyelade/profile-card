@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pharez - Profile Card</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <article
+        class="profile-card"
+        tabindex="0"
+        aria-labelledby="profile-name"
+        data-testid="test-profile-card"
+      >
+        <!-- Avatar -->
+
+        <figure class="avatar">
+          <img
+            src="pharez_avatar.jpg"
+            alt="Portrait of Pharez Oyelade"
+            data-testid="test-user-avatar"
+          />
+
+          <figcaption>Frontend Developer</figcaption>
+        </figure>
+
+        <section class="text-content">
+          <header>
+            <h2
+              id="profile-name"
+              data-testid="test-user-name"
+              aria-label="Name"
+            >
+              Pharez Oyelade
+            </h2>
+          </header>
+
+          <!-- Bio -->
+          <section aria-labelledby="bio-heading">
+            <h3 id="bio-heading" class="visually-hidden">Biography</h3>
+            <p data-testid="test-user-bio">
+              Passionate frontend developer who loves building clean UI,
+              exploring new tech, and solving real-world problems.
+            </p>
+          </section>
+
+          <!-- Time -->
+          <section aria-labelledby="time-heading">
+            <h3 id="time-heading" class="visually-hidden">Current Time</h3>
+            <p>
+              Current Time (ms):
+              <span
+                id="epoch-time"
+                aria-live="polite"
+                data-testid="test-user-time"
+              ></span>
+            </p>
+          </section>
+
+          <!-- Social Links -->
+          <nav aria-labelledby="social-heading">
+            <h3 id="social-heading">Social Links</h3>
+            <ul class="social-links" data-testid="test-user-social-links">
+              <li data-testid="test-user-social-twitter">
+                <a
+                  href="https://x.com/Pharez_Oye"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Twitter</a
+                >
+              </li>
+              <li data-testid="test-user-social-github">
+                <a
+                  href="https://github.com/Pharez-Oyelade"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub</a
+                >
+              </li>
+              <li data-testid="test-user-social-linkedin">
+                <a
+                  href="https://www.linkedin.com/in/pharez-oyelade-b90263312"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Hobbies -->
+          <section class="likes">
+            <section aria-labelledby="hobbies-heading">
+              <h3 id="hobbies-heading">Hobbies</h3>
+              <ul data-testid="test-user-hobbies">
+                <li>Coding</li>
+                <li>Reading</li>
+                <li>Gaming</li>
+                <li>Chess</li>
+              </ul>
+            </section>
+
+            <!-- Dislikes -->
+            <section aria-labelledby="dislikes-heading">
+              <h3 id="dislikes-heading">Dislikes</h3>
+              <ul data-testid="test-user-dislikes">
+                <li>Slow internet</li>
+                <li>Bad UI</li>
+                <li>Comic Sans</li>
+              </ul>
+            </section>
+          </section>
+        </section>
+        <!-- Name -->
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
